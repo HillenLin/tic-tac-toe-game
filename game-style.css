@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Kumar+One|Poppins');
+
+body{
+}
+
+
+#outter-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+#app-name {
+  margin-top: 3vh;
+  font-size: 2.5rem;
+}
+table {
+    border-collapse: collapse;
+}
+th{
+  width: 10vw;
+  height: 20vh;
+  bottom
+}
+
+tr th:not(:last-child){
+  border-right: 1px solid black;
+}
+tr:not(:last-child){
+  border-bottom:1px solid black;
+}
+
+.disabled{
+  pointer-events: none;
+}
