@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kevin investment bank ATM</title>
+<title>tic tac toe game for fun</title>
 <link href="game-style.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="jquery-3.2.1.min.js"></script>
+
+<script src="sweetalert-master/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+
 </head>
 <body>
-  <div id='pic-tokenA'>
-    <!-- create image radio buttons -->
+  <div id='pic-container'>
+    <div class='drop-style' id="drop-container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <!-- this is the place to drop images FOR PLAYER A -->
+    </div>
+
+    <div class='drop-style' id="drop-container2" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <!-- this is the place to drop images FOR PLAYER B -->
+    </div>
+
+    <div id="drag-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <!-- this is the continer to drag images -->
+    </div>
+
   </div>
+
   <div id="outter-container">
     <div id='app-name'>tic tac toe</div>
     <div id=‘customized-token’>
@@ -47,5 +63,6 @@
   </div>
 
 <script src="game.js"></script>
+
 </body>
 </html>

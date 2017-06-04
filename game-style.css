@@ -19,7 +19,8 @@ table {
 th{
   width: 10vw;
   height: 20vh;
-  bottom
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
 }
 
 tr th:not(:last-child){
@@ -35,7 +36,18 @@ tr:not(:last-child){
 .image-style {
     width: 2rem;
 }
-#pic-tokenA{
+
+#pic-container{
   width: 45vw;
   float: left;
 }
+#drag-container{
+  width: 45vw;
+}
+.drop-style{
+  width: 45vw;
+  border: solid red 1px;
+  height: 20vh;
+}
+
+#drop-container img:first-child
