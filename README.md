@@ -9,12 +9,12 @@ Keep track of multiple game rounds with a win counter
 
 * Get inventive with your styling, e.g. use hover effects or animations to spiff things up -------------------not yet
 
-Use LocalStorage to persist data locally to allow games to continue after page refresh or loss of internet
+* Use LocalStorage to persist data locally to allow games to continue after page refresh or loss of internet
 
 connectivity ---------------------not yet
 
-Support custom board sizes: default is 3x3 but you could allow users to choose a larger board --------------------not yet
+* Support custom board sizes: default is 3x3 but you could allow users to choose a larger board --------------------not yet
 
-Support networked multiplayer: https://www.firebase.com/ has a nice quickstart guide -------------------------------------not yet
+* Support networked multiplayer: https://www.firebase.com/ has a nice quickstart guide -------------------------------------not yet
 
-TRICKIEST: Create an AI opponent: teach Javascript to play an unbeatable game against you ------------------------------------not yet
+* TRICKIEST: Create an AI opponent: teach Javascript to play an unbeatable game against you ------------------------------------not yet
